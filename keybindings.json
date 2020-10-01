@@ -12,11 +12,6 @@
   },
   {
     "key": "ctrl+shift+a",
-    "command": "breadcrumbs.focus",
-    "when": "breadcrumbsPossible"
-  },
-  {
-    "key": "ctrl+shift+a",
     "command": "-editor.action.blockComment",
     "when": "editorTextFocus && !editorReadonly"
   },

@@ -41,16 +41,6 @@
     "when": "editorTextFocus"
   },
   {
-    "key": "shift+alt+up",
-    "command": "editor.action.copyLinesUpAction",
-    "when": "editorTextFocus && !editorReadonly"
-  },
-  {
-    "key": "ctrl+shift+alt+up",
-    "command": "-editor.action.copyLinesUpAction",
-    "when": "editorTextFocus && !editorReadonly"
-  },
-  {
     "key": "shift+alt+down",
     "command": "editor.action.copyLinesDownAction",
     "when": "editorTextFocus && !editorReadonly"
@@ -177,5 +167,59 @@
     "key": "ctrl+shift+f",
     "command": "-vueBeautify.format",
     "when": "editorTextFocus && editorTextFocus && !editorReadonly && resourceLangId == 'vue'"
+  },
+  {
+    "key": "shift+alt+f",
+    "command": "-notebook.format",
+    "when": "notebookEditable && !editorTextFocus && activeEditor == 'workbench.editor.notebook'"
+  },
+  {
+    "key": "shift+alt+f",
+    "command": "-notebook.formatCell",
+    "when": "editorHasDocumentFormattingProvider && editorTextFocus && inCompositeEditor && notebookEditable && !editorReadonly && activeEditor == 'workbench.editor.notebook'"
+  },
+  {
+    "key": "ctrl+alt+p",
+    "command": "-extension.vueFormat",
+    "when": "editorTextFocus && !editorReadonly && editorLangId == 'vue'"
+  },
+  {
+    "key": "ctrl+alt+p",
+    "command": "codesnap.start"
+  },
+  {
+    "key": "ctrl+r shift+r",
+    "command": "-npm-script.run",
+    "when": "!terminalFocus"
+  },
+  {
+    "key": "ctrl+r t",
+    "command": "-npm-script.test",
+    "when": "!terminalFocus"
+  },
+  {
+    "key": "ctrl+r l",
+    "command": "-npm-script.showOutput",
+    "when": "!terminalFocus"
+  },
+  {
+    "key": "ctrl+r shift+x",
+    "command": "-npm-script.terminate-script",
+    "when": "!terminalFocus"
+  },
+  {
+    "key": "ctrl+r r",
+    "command": "-npm-script.rerun-last-script",
+    "when": "!terminalFocus"
+  },
+  {
+    "key": "ctrl+alt+up",
+    "command": "editor.action.insertCursorAbove",
+    "when": "editorTextFocus"
+  },
+  {
+    "key": "ctrl+alt+up",
+    "command": "-editor.action.insertCursorAbove",
+    "when": "editorTextFocus"
   }
 ]

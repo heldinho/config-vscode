@@ -1,0 +1,213 @@
+{
+    "editor.minimap.scale": 1,
+    "editor.minimap.showSlider": "always",
+    "editor.minimap.size": "proportional",
+    "editor.wordWrap": "on",
+    "editor.tabSize": 2,
+    "editor.indentSize": "tabSize",
+    "prettier.enable": true,
+    "prettier.singleQuote": true,
+    "prettier.trailingComma": "all",
+    "prettier.printWidth": 80,
+    "prettier.tabWidth": 2,
+    "prettier.semi": true,
+    "prettier.bracketSpacing": true,
+    "prettier.bracketSameLine": false,
+    "prettier.jsxSingleQuote": false,
+    "prettier.arrowParens": "avoid",
+    "prettier.endOfLine": "lf",
+    "editor.lineHeight": 0,
+    "editor.fontLigatures": true,
+    "editor.renderLineHighlight": "all",
+    "editor.parameterHints.enabled": false,
+    "terminal.integrated.fontSize": 12,
+    "workbench.statusBar.visible": true,
+    "workbench.startupEditor": "newUntitledFile",
+  
+    "emmet.syntaxProfiles": {
+      "javascript": ["js", "jsx", "vue"],
+      "nunjucks": ["html", "js", "css", "scss"],
+      "vue-html": ["html", "js", "css", "scss"],
+      "vue": ["html", "js", "css", "scss"]
+    },
+  
+    "emmet.includeLanguages": {
+      "javascript": ["javascriptreact", "javascriptvue"],
+      "nunjucks": ["html", "js", "css", "scss"]
+    },
+  
+    "javascript.updateImportsOnFileMove.enabled": "never",
+    "gitlens.codeLens.recentChange.enabled": false,
+    "gitlens.codeLens.authors.enabled": false,
+    "gitlens.codeLens.enabled": false,
+    "git.enableSmartCommit": true,
+    "explorer.confirmDragAndDrop": false,
+    "explorer.confirmDelete": false,
+  
+    "workbench.colorCustomizations": {
+      "scrollbarSlider.activeBackground": "#8bf85965",
+      "scrollbarSlider.hoverBackground": "#8f110865",
+      "scrollbarSlider.background": "#c9755465"
+    },
+  
+    "editor.formatOnPaste": false,
+    "editor.formatOnSave": false,
+    "editor.formatOnType": false,
+    "editor.suggestSelection": "first",
+  
+    "git.allowForcePush": true,
+    "git.autofetch": true,
+    "git.alwaysSignOff": true,
+    "git.confirmEmptyCommits": false,
+    "git.confirmForcePush": false,
+    "git.confirmSync": false,
+    "git.fetchOnPull": true,
+  
+    "[css]": {
+      "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "[json]": {
+      "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "[scss]": {
+      "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "[vue]": {
+      "editor.defaultFormatter": "octref.vetur"
+    },
+    "[html]": {
+      "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "[sql]": {
+      "editor.defaultFormatter": "adpyke.vscode-sql-formatter"
+    },
+    "[jsonc]": {
+      "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "[javascript]": {
+      "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "[javascriptreact]": {
+      "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "[typescript]": {
+      "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "[typescriptreact]": {
+      "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "terminal.integrated.defaultProfile.windows": "Git Bash",
+    "[dart]": {
+      "editor.formatOnSave": false,
+      "editor.formatOnType": false,
+      "editor.rulers": [80],
+      "editor.selectionHighlight": true,
+      "editor.suggest.snippetsPreventQuickSuggestions": false,
+      "editor.suggestSelection": "first",
+      "editor.tabCompletion": "onlySnippets",
+      "editor.wordBasedSuggestions": "off"
+    },
+    "workbench.list.multiSelectModifier": "ctrlCmd",
+    "editor.linkedEditing": true,
+    "security.workspace.trust.enabled": false,
+    "workbench.colorTheme": "Dracula Theme",
+    "gitlens.advanced.messages": {
+      "suppressCommitHasNoPreviousCommitWarning": true
+    },
+    "redhat.telemetry.enabled": true,
+    "terminal.integrated.defaultProfile.osx": "zsh",
+    "terminal.integrated.shellIntegration.enabled": false,
+    "typescript.updateImportsOnFileMove.enabled": "always",
+    "editor.renderWhitespace": "none",
+    "yaml.customTags": [
+      "!And",
+      "!And sequence",
+      "!If",
+      "!If sequence",
+      "!Not",
+      "!Not sequence",
+      "!Equals",
+      "!Equals sequence",
+      "!Or",
+      "!Or sequence",
+      "!FindInMap",
+      "!FindInMap sequence",
+      "!Base64",
+      "!Join",
+      "!Join sequence",
+      "!Cidr",
+      "!Ref",
+      "!Sub",
+      "!Sub sequence",
+      "!GetAtt",
+      "!GetAZs",
+      "!ImportValue",
+      "!ImportValue sequence",
+      "!Select",
+      "!Select sequence",
+      "!Split",
+      "!Split sequence"
+    ],
+    "explorer.compactFolders": false,
+    "git.ignoreRebaseWarning": true,
+    "projectManager.groupList": true,
+    "terminal.integrated.gpuAcceleration": "off",
+    "[prisma]": {
+      "editor.defaultFormatter": "Prisma.prisma",
+      "editor.formatOnSave": false
+    },
+    "terminal.integrated.env.osx": {
+      "FIG_NEW_SESSION": "1"
+    },
+    "editor.accessibilitySupport": "off",
+    "editor.defaultFormatter": "esbenp.prettier-vscode",
+    "terminal.external.linuxExec": "/bin/bash",
+    "terminal.external.osxExec": "/bin/zsh",
+    "terminal.external.windowsExec": "C:\\Program Files\\Git\\git-bash.exe",
+    "[csharp]": {
+      "editor.defaultFormatter": "ms-dotnettools.csharp"
+    },
+    "editor.hideCursorInOverviewRuler": true,
+    "editor.cursorBlinking": "smooth",
+    "editor.cursorSmoothCaretAnimation": "on",
+    "terminal.integrated.enableMultiLinePasteWarning": false,
+    "explorer.confirmPasteNative": false,
+    "workbench.layoutControl.enabled": false,
+    "window.commandCenter": false,
+    "scm.showHistoryGraph": false,
+    "editor.fontSize": 12,
+    "database-client.autoSync": true,
+    "extensions.ignoreRecommendations": true,
+    "editor.fontFamily": "Fira Code",
+    "workbench.panel.showLabels": false,
+    "workbench.iconTheme": "material-icon-theme",
+    "gitlens.views.scm.grouped.views": {
+      "commits": false,
+      "branches": false,
+      "remotes": false,
+      "stashes": false,
+      "tags": false,
+      "worktrees": false,
+      "contributors": false,
+      "repositories": false,
+      "searchAndCompare": false,
+      "launchpad": false
+    },
+    "[dockerfile]": {
+      "editor.defaultFormatter": "foxundermoon.shell-format"
+    },
+    "[dotenv]": {
+      "editor.defaultFormatter": "foxundermoon.shell-format"
+    },
+    "liveServer.settings.donotShowInfoMsg": true,
+    "chat.editing.alwaysSaveWithGeneratedChanges": true,
+    "settingsSync.ignoredSettings": [],
+    "window.zoomLevel": -1,
+    "php.validate.executablePath": "",
+    "git.path": "",
+    "codeium.disableSupercomplete": true,
+    "codeium.enableConfig": {
+      "*": true
+    },
+    "codeium.enableCodeLens": false
+  }
